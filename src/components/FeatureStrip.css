@@ -1,0 +1,39 @@
+.feature-strip {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 1.5rem;
+}
+
+.feature-card {
+    padding: 1rem 1.1rem;
+    border-radius: 1.15rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(255, 141, 179, 0.5);
+}
+
+.feature-title {
+    margin: 0;
+    color: #ffd0e1;
+    font-weight: 700;
+}
+
+.feature-text {
+    margin: 0.35rem 0 0;
+    color: #cfcbd5;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .feature-strip {
+        grid-template-columns: 1fr;
+    }
+}

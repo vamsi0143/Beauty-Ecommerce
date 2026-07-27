@@ -1,0 +1,73 @@
+.recent-section {
+    padding: 1.2rem;
+    border-radius: 1.5rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.section-title-row h3 {
+    margin: 0;
+    color: #f8e9ed;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.35rem;
+}
+
+.recent-grid {
+    display: grid;
+    gap: 0.9rem;
+    margin-top: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.recent-card {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.recent-card img {
+    width: 3.4rem;
+    height: 3.4rem;
+    object-fit: cover;
+    border-radius: 0.8rem;
+}
+
+.recent-name {
+    margin: 0;
+    color: #f8e9ed;
+    font-weight: 700;
+}
+
+.recent-meta {
+    margin: 0.2rem 0 0;
+    color: #9c98a2;
+    font-size: 0.84rem;
+}
+
+.recent-actions {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.recent-actions a,
+.recent-actions button {
+    border: none;
+    border-radius: 999px;
+    padding: 0.4rem 0.65rem;
+    background: rgba(255, 255, 255, 0.08);
+    color: #f8e9ed;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+@media (max-width: 760px) {
+    .recent-grid {
+        grid-template-columns: 1fr;
+    }
+}

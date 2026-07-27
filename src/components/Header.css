@@ -1,0 +1,142 @@
+.topbar {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(14, 14, 20, 0.8);
+    backdrop-filter: blur(20px);
+}
+
+.topbar-inner {
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+}
+
+.brand-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+}
+
+.brand-mark {
+    display: grid;
+    place-items: center;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 999px;
+    background: linear-gradient(140deg, #ff7aa2, #b184ff);
+    color: #fff;
+    box-shadow: 0 10px 25px rgba(255, 122, 162, 0.25);
+}
+
+.brand-name {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    color: #f8e9ed;
+}
+
+.brand-subtitle {
+    margin: 0;
+    font-size: 0.72rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #9e9aa6;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.3rem;
+}
+
+.nav-link,
+.mobile-link {
+    text-decoration: none;
+    color: #cfcbd5;
+    font-size: 0.95rem;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.nav-link:hover,
+.mobile-link:hover,
+.nav-link.active,
+.mobile-link.active {
+    color: #ff8db3;
+    transform: translateY(-1px);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.icon-btn {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.04);
+    color: #f7f1f6;
+    text-decoration: none;
+    transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.icon-btn:hover {
+    transform: translateY(-2px);
+    border-color: #ff8db3;
+    background: rgba(255, 141, 179, 0.12);
+}
+
+.badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    min-width: 1.1rem;
+    height: 1.1rem;
+    padding: 0 0.2rem;
+    border-radius: 999px;
+    background: linear-gradient(140deg, #ff7aa2, #9c66ff);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+}
+
+.mobile-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    padding: 0 1.25rem 1rem;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: grid;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .mobile-only {
+        display: grid;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+}

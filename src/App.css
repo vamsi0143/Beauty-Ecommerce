@@ -1,0 +1,123 @@
+.app-shell {
+    min-height: 100vh;
+    background: radial-gradient(circle at top left, rgba(255, 141, 179, 0.15), transparent 28%), linear-gradient(135deg, #06070b 0%, #12131b 100%);
+    color: #f8e9ed;
+    transition: background 0.25s ease, color 0.25s ease;
+}
+
+.theme-switcher {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 90;
+}
+
+.theme-light {
+    background: radial-gradient(circle at top left, rgba(255, 141, 179, 0.16), transparent 24%), linear-gradient(135deg, #fff8fa 0%, #f4e9f0 100%);
+    color: #271a2a;
+}
+
+.theme-light .footer,
+.theme-light .content-section,
+.theme-light .panel-card,
+.theme-light .newsletter-card,
+.theme-light .recent-section,
+.theme-light .compare-panel,
+.theme-light .product-card {
+    background: rgba(255, 255, 255, 0.8);
+    color: #271a2a;
+    border-color: rgba(0, 0, 0, 0.08);
+}
+
+.theme-light .footer-title,
+.theme-light .section-title h2,
+.theme-light .panel-card h3,
+.theme-light .product-name,
+.theme-light .recent-name,
+.theme-light .compare-card h4,
+.theme-light .hero-copy h1 {
+    color: #2b1c2f;
+}
+
+.theme-light .footer-copy,
+.theme-light .panel-card p,
+.theme-light .product-description,
+.theme-light .recent-meta,
+.theme-light .compare-card p,
+.theme-light .compare-card span,
+.theme-light .compare-card small,
+.theme-light .hero-copy p {
+    color: #6a5a6e;
+}
+
+.main-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 2rem;
+}
+
+.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 1.4rem 1.25rem 2rem;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.footer-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer-title {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    color: #f8e9ed;
+}
+
+.footer-copy {
+    margin: 0.25rem 0 0;
+    color: #9c98a2;
+    max-width: 32rem;
+}
+
+.footer-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: #cfcbd5;
+    font-size: 0.9rem;
+}
+
+.footer-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+}
+
+.toast {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 60;
+    padding: 0.8rem 1rem;
+    border-radius: 999px;
+    background: linear-gradient(140deg, #ff7aa2, #9c66ff);
+    color: white;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+    .footer-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .theme-switcher {
+        top: 0.75rem;
+        right: 0.75rem;
+    }
+}
