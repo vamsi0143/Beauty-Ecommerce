@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" rx="48" fill="#271A22"/>
+  <rect x="240" y="180" width="320" height="440" rx="40" fill="#FFF4EA"/>
+  <rect x="290" y="220" width="220" height="280" rx="28" fill="#D4A985"/>
+  <path d="M350 300c18-24 40-36 70-36 30 0 54 12 70 36" stroke="#8B5A3B" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="400" cy="380" r="74" fill="#FFF4EA" fill-opacity="0.72"/>
+  <text x="400" y="650" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#FFE9DC">Body Cream</text>
+</svg>

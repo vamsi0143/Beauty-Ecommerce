@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" rx="48" fill="#16222B"/>
+  <rect x="220" y="220" width="360" height="360" rx="48" fill="#F5F6F9"/>
+  <rect x="280" y="280" width="240" height="240" rx="28" fill="#B8D6F5"/>
+  <path d="M360 300c0-36 28-64 64-64 18 0 35 8 47 21" stroke="#315D8A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M360 520c0 28 24 52 52 52s52-24 52-52" stroke="#315D8A" stroke-width="18" stroke-linecap="round"/>
+  <text x="400" y="640" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#EFF7FF">Repair Shampoo</text>
+</svg>

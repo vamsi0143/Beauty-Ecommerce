@@ -11,7 +11,7 @@ export const products = [
         badge: 'Best Seller',
         skinType: ['Dry', 'Sensitive'],
         description: 'A luminous glow-boosting serum infused with niacinamide and fermented botanicals for a radiant, satin finish.',
-        image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=900&q=80',
+        image: '/images/serum.svg',
         gallery: [
             'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=900&q=80',
             'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80',
@@ -33,7 +33,7 @@ export const products = [
         badge: 'New',
         skinType: ['All', 'Sensitive'],
         description: 'A weightless satin rouge with a plush, comfortable finish and a softly sculpted look.',
-        image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=80',
+        image: '/images/rouge.svg',
         gallery: [
             'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=80',
             'https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=900&q=80',
@@ -55,7 +55,7 @@ export const products = [
         badge: 'Trending',
         skinType: ['All'],
         description: 'A strengthening shampoo that smooths, protects, and leaves every strand silky and luminous.',
-        image: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80',
+        image: '/images/shampoo.svg',
         gallery: [
             'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80',
             'https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=900&q=80'
@@ -76,7 +76,7 @@ export const products = [
         badge: 'Limited',
         skinType: ['All'],
         description: 'An opulent floral musk layered with cedar, neroli, and soft amber for a quietly commanding signature.',
-        image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=80',
+        image: '/images/parfum.svg',
         gallery: [
             'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=80',
             'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=900&q=80'
@@ -97,7 +97,7 @@ export const products = [
         badge: 'Seasonal',
         skinType: ['Dry', 'Normal'],
         description: 'A velvety cocoa butter cream that melts into lasting hydration and a satin-soft finish.',
-        image: 'https://images.unsplash.com/photo-1556228841-7bd4f2b7f4d7?auto=format&fit=crop&w=900&q=80',
+        image: '/images/bodycream.svg',
         gallery: [
             'https://images.unsplash.com/photo-1556228841-7bd4f2b7f4d7?auto=format&fit=crop&w=900&q=80',
             'https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=900&q=80'
@@ -118,7 +118,7 @@ export const products = [
         badge: 'Editors Pick',
         skinType: ['All'],
         description: 'A luxe brush collection crafted for seamless blending, sculpted precision, and polished artistry.',
-        image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=80',
+        image: '/images/rouge.svg',
         gallery: [
             'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=80',
             'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=80'
