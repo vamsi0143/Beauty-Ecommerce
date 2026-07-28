@@ -3,8 +3,8 @@ import { Minus, Plus, Trash2, Sparkles } from 'lucide-react';
 
 function CartPage({ cart, updateQuantity, subtotal, discount, shipping, total, addToCart }) {
     const recommended = [
-        { id: 101, name: 'VR Silk Mist', price: 34, image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80' },
-        { id: 102, name: 'Glow Reset Mask', price: 28, image: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&q=80' }
+        { id: 101, name: 'VR Silk Mist', price: 34, image: '/images/parfum.svg' },
+        { id: 102, name: 'Glow Reset Mask', price: 28, image: '/images/bodycream.svg' }
     ];
 
     return (

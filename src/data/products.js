@@ -13,9 +13,9 @@ export const products = [
         description: 'A luminous glow-boosting serum infused with niacinamide and fermented botanicals for a radiant, satin finish.',
         image: '/images/serum.svg',
         gallery: [
-            'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=900&q=80',
-            'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80',
-            'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=900&q=80'
+            '/images/serum.svg',
+            '/images/parfum.svg',
+            '/images/bodycream.svg'
         ],
         shades: ['Rose Quartz', 'Honey Glow'],
         ingredients: 'Niacinamide, Peony Extract, Hyaluronic Acid',
@@ -35,9 +35,9 @@ export const products = [
         description: 'A weightless satin rouge with a plush, comfortable finish and a softly sculpted look.',
         image: '/images/rouge.svg',
         gallery: [
-            'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=80',
-            'https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=900&q=80',
-            'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=80'
+            '/images/rouge.svg',
+            '/images/shampoo.svg',
+            '/images/parfum.svg'
         ],
         shades: ['Mauve', 'Nude', 'Berry'],
         ingredients: 'Shea Butter, Vitamin E, Jojoba Oil',
@@ -57,8 +57,9 @@ export const products = [
         description: 'A strengthening shampoo that smooths, protects, and leaves every strand silky and luminous.',
         image: '/images/shampoo.svg',
         gallery: [
-            'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80',
-            'https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=900&q=80'
+            '/images/shampoo.svg',
+            '/images/serum.svg',
+            '/images/bodycream.svg'
         ],
         shades: ['Classic'],
         ingredients: 'Keratin, Argan Oil, Aloe Vera',
@@ -78,8 +79,9 @@ export const products = [
         description: 'An opulent floral musk layered with cedar, neroli, and soft amber for a quietly commanding signature.',
         image: '/images/parfum.svg',
         gallery: [
-            'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=80',
-            'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=900&q=80'
+            '/images/parfum.svg',
+            '/images/rouge.svg',
+            '/images/serum.svg'
         ],
         shades: ['50ml', '100ml'],
         ingredients: 'Neroli, Cedarwood, Amber',
@@ -99,8 +101,9 @@ export const products = [
         description: 'A velvety cocoa butter cream that melts into lasting hydration and a satin-soft finish.',
         image: '/images/bodycream.svg',
         gallery: [
-            'https://images.unsplash.com/photo-1556228841-7bd4f2b7f4d7?auto=format&fit=crop&w=900&q=80',
-            'https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=900&q=80'
+            '/images/bodycream.svg',
+            '/images/parfum.svg',
+            '/images/rouge.svg'
         ],
         shades: ['Cocoa', 'Vanilla'],
         ingredients: 'Cocoa Butter, Oat Milk, Vitamin E',
@@ -120,8 +123,9 @@ export const products = [
         description: 'A luxe brush collection crafted for seamless blending, sculpted precision, and polished artistry.',
         image: '/images/rouge.svg',
         gallery: [
-            'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=80',
-            'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=80'
+            '/images/rouge.svg',
+            '/images/shampoo.svg',
+            '/images/bodycream.svg'
         ],
         shades: ['Rose', 'Gold'],
         ingredients: 'Synthetic Taklon Bristles',
