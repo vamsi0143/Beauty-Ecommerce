@@ -22,7 +22,7 @@ function HeroSection() {
             </div>
 
             <div className="hero-visual">
-                <img src="/images/serum.svg" alt="Luxury beauty products" />
+                <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80" alt="Luxury beauty products" />
                 <div className="hero-overlay-card">
                     <div>
                         <p className="overlay-title">Glow quiz</p>
