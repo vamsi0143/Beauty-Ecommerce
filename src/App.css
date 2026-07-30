@@ -12,11 +12,7 @@
     z-index: 90;
 }
 
-/* 
-.theme-light {
-    background: radial-gradient(circle at top left, rgba(255, 141, 179, 0.16), transparent 24%), linear-gradient(135deg, #fff8fa 0%, #f4e9f0 100%);
-    color: #271a2a;
-} */
+
 .theme-light {
     color: #271a2a;
 }
@@ -207,7 +203,10 @@
     }
 
     .theme-switcher {
-        top: 0.75rem;
-        right: 0.75rem;
+        position: static;
+        top: 14px;
+        right: 60px;
+        /* Adjust between 55px–70px if needed */
+        z-index: 999;
     }
 }
