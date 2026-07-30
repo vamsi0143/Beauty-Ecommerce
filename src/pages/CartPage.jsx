@@ -3,8 +3,8 @@ import { Minus, Plus, Trash2, Sparkles } from 'lucide-react';
 
 function CartPage({ cart, updateQuantity, subtotal, discount, shipping, total, addToCart }) {
     const recommended = [
-        { id: 101, name: 'VR Silk Mist', price: 34, image: '/images/parfum.svg' },
-        { id: 102, name: 'Glow Reset Mask', price: 28, image: '/images/bodycream.svg' }
+        { id: 101, name: 'VR Silk Mist', price: 34, image: `${import.meta.env.BASE_URL}images/parfum.svg` },
+        { id: 102, name: 'Glow Reset Mask', price: 28, image: `${import.meta.env.BASE_URL}images/bodycream.svg` }
     ];
 
     return (
