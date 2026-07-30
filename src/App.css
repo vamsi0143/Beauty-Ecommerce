@@ -12,9 +12,25 @@
     z-index: 90;
 }
 
+/* 
 .theme-light {
     background: radial-gradient(circle at top left, rgba(255, 141, 179, 0.16), transparent 24%), linear-gradient(135deg, #fff8fa 0%, #f4e9f0 100%);
     color: #271a2a;
+} */
+.theme-light {
+    color: #271a2a;
+}
+
+.theme-light p,
+.theme-light h1,
+.theme-light h2,
+.theme-light h3,
+.theme-light h4,
+.theme-light h5,
+.theme-light h6,
+.theme-light span,
+.theme-light label {
+    color: inherit;
 }
 
 .theme-light .footer,
@@ -48,6 +64,80 @@
 .theme-light .compare-card small,
 .theme-light .hero-copy p {
     color: #6a5a6e;
+}
+
+.theme-light {
+    background: radial-gradient(circle at top left,
+            rgba(255, 141, 179, 0.16),
+            transparent 24%),
+        linear-gradient(135deg, #fff8fa 0%, #f4e9f0 100%);
+    color: #271a2a;
+}
+
+/* Apply dark text to all elements */
+/* .theme-light,
+.theme-light * {
+    color: #271a2a;
+} */
+
+.theme-light a {
+    color: #271a2a;
+}
+
+.theme-light a:hover {
+    color: #d63384;
+}
+
+/* .theme-light button {
+    color: #271a2a;
+    background: #ffffff;
+    border: 1px solid #d8d8d8;
+} */
+.theme-light button:not(.primary-btn):not(.hero-btn) {
+    background: #fff;
+    color: #222;
+}
+
+.theme-light button:hover {
+    background: #f4f4f4;
+}
+
+.theme-light input,
+.theme-light textarea,
+.theme-light select {
+    background: #ffffff;
+    color: #271a2a;
+    border: 1px solid #cccccc;
+}
+
+.theme-light input::placeholder,
+.theme-light textarea::placeholder {
+    color: #777;
+}
+
+.theme-light .navbar {
+    background: rgba(255, 255, 255, 0.95);
+    color: #271a2a;
+    border-bottom: 1px solid rgba(0, 0, 0, .08);
+}
+
+.theme-light .product-card {
+    background: #ffffff;
+    color: #271a2a;
+    border: 1px solid #e5e5e5;
+}
+
+.theme-light svg {
+    stroke: #271a2a;
+}
+
+.theme-light .footer {
+    background: #ffffff;
+    border-top: 1px solid #ddd;
+}
+
+.theme-light .footer-meta {
+    color: #555;
 }
 
 .main-content {
