@@ -1,8 +1,16 @@
 import { ArrowRight, Clock3, ShieldCheck, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import './HeroSection.css';
+import { useState } from 'react';
+import QuizModal from './QuizModal';
+
 
 function HeroSection() {
+    const [isQuizOpen, setIsQuizOpen] = useState(false);
+
+    const handleRecommend = (product) => {
+        alert(`Recommended Product: ${product}`);
+    };
     return (
         <section className="hero-card">
             <div className="hero-copy">
@@ -28,9 +36,16 @@ function HeroSection() {
                         <p className="overlay-title">Glow quiz</p>
                         <p className="overlay-text">Find your perfect shade and ritual in minutes.</p>
                     </div>
-                    <button>Start quiz</button>
+                    <button onClick={() => setIsQuizOpen(true)}>
+                        Start quiz
+                    </button>
                 </div>
             </div>
+            <QuizModal
+                isOpen={isQuizOpen}
+                onClose={() => setIsQuizOpen(false)}
+                onRecommend={handleRecommend}
+            />
         </section>
     );
 }

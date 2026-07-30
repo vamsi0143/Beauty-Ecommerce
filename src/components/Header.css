@@ -140,3 +140,50 @@
         display: none;
     }
 }
+
+/* ===== Light Theme Header ===== */
+
+.theme-light .topbar {
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid #e5e5e5;
+    backdrop-filter: blur(20px);
+}
+
+.theme-light .brand-name {
+    color: #271a2a;
+}
+
+.theme-light .brand-subtitle {
+    color: #666;
+}
+
+.theme-light .nav-link,
+.theme-light .mobile-link {
+    color: #444;
+}
+
+.theme-light .nav-link:hover,
+.theme-light .mobile-link:hover,
+.theme-light .nav-link.active,
+.theme-light .mobile-link.active {
+    color: #ff4f8b;
+}
+
+.theme-light .icon-btn {
+    background: #ffffff;
+    color: #271a2a;
+    border: 1px solid #dddddd;
+}
+
+.theme-light .icon-btn:hover {
+    background: #ffe6ef;
+    border-color: #ff4f8b;
+}
+
+.theme-light .icon-btn svg {
+    stroke: #271a2a;
+}
+
+.theme-light .badge {
+    color: #ffffff;
+}

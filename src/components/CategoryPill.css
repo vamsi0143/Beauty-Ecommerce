@@ -14,3 +14,19 @@
     transform: translateY(-2px);
     border-color: rgba(255, 141, 179, 0.45);
 }
+
+/* ===== Light Theme ===== */
+
+.theme-light .category-pill {
+    background: #ffffff;
+    color: #271a2a;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.theme-light .category-pill:hover {
+    background: #ffeaf3;
+    color: #d63384;
+    border-color: #ff7aa2;
+    transform: translateY(-2px);
+}
