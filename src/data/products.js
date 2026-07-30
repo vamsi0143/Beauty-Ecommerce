@@ -39,7 +39,7 @@ export const products = [
         description: 'A weightless satin rouge with a plush, comfortable finish and a softly sculpted look.',
         image: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&q=80',
         gallery: [
-            'https://images.unsplash.com/photo-1583241800698-9d86b6d5f7dd?w=800&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&q=80',
             'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&auto=format&fit=crop',
             'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&auto=format&fit=crop'
         ],
