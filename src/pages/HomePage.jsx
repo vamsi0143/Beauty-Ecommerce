@@ -1,3 +1,4 @@
+import QuizModal from '../components/QuizModal';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { useState } from 'react';
@@ -13,6 +14,12 @@ import './HomePage.css';
 function HomePage({ products, featuredProducts, addToCart, addToWishlist }) {
     const categories = ['Skincare', 'Makeup', 'Haircare', 'Fragrances', 'Body Care', 'Accessories'];
     const [selectedCompare, setSelectedCompare] = useState([]);
+    const [isQuizOpen, setIsQuizOpen] = useState(false);
+
+    const handleRecommend = (product) => {
+        alert(`Recommended Product: ${product}`);
+        // Later you can navigate to the product page instead of showing an alert.
+    };
     const recentlyViewed = products.slice(0, 3);
     const newArrivals = products.slice(0, 2);
     const trendingNow = products.slice(3, 6);
@@ -89,7 +96,9 @@ function HomePage({ products, featuredProducts, addToCart, addToWishlist }) {
                     <p className="panel-eyebrow">Beauty quiz</p>
                     <h3>Find your glow profile</h3>
                     <p>Answer a few quick questions and receive a personalized routine matched to your skin type and aesthetic.</p>
-                    <button>Start the quiz</button>
+                    <button onClick={() => setIsQuizOpen(true)}>
+                        Start the quiz
+                    </button>
                 </div>
             </section>
 
@@ -138,6 +147,11 @@ function HomePage({ products, featuredProducts, addToCart, addToWishlist }) {
                     <button>Subscribe</button>
                 </div>
             </section>
+            <QuizModal
+                isOpen={isQuizOpen}
+                onClose={() => setIsQuizOpen(false)}
+                onRecommend={handleRecommend}
+            />
         </div>
     );
 }
